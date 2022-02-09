@@ -2,27 +2,63 @@
   "name": "qhali-kay-peru",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "npm run dynamic-code-analysis",
+    "e2e": "cypress open",
+    "dynamic-code-analysis": "react-scripts test"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "volta": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
   },
+  "dependencies": {
+    "@cloudinary/react": "^1.0.1",
+    "@cloudinary/url-gen": "^1.4.2",
+    "@types/react-router-dom": "^5.3.2",
+    "axios": "^0.24.0",
+    "jwt-decode": "^3.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4",
+    "react-simple-star-rating": "^4.0.5",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "10.12.9",
+    "@types/react": "16.9.0",
+    "cypress": "^9.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-testing-library": "^3.10.2",
+    "sass": "^1.43.4"
+  },
+  "keywords": [
+    "React.js",
+    "react",
+    "make it real",
+    "bootcamp",
+    "QhaliKayPeru"
+  ],
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
